@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Landing Page Video</title>
+
+
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+
+
+    body {
+
+      background: #000;
+
+      color: white;
+
+      padding: 20px;
+
+    }
+
+
+
+    /* HEADER */
+
+    .profile {
+
+      text-align: center;
+
+      margin-bottom: 25px;
+
+    }
+
+
+
+    .profile img {
+
+      width: 100px;
+
+      height: 100px;
+
+      border-radius: 50%;
+
+      object-fit: cover;
+
+      border: 3px solid white;
+
+    }
+
+
+
+    .profile h1 {
+
+      margin-top: 12px;
+
+      font-size: 28px;
+
+    }
+
+
+
+    /* VIDEO LIST */
+
+    .video-list {
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 18px;
+
+    }
+
+
+
+    .video-card {
+
+      position: relative;
+
+      display: block;
+
+      text-decoration: none;
+
+      overflow: hidden;
+
+      border-radius: 20px;
+
+      background: #111;
+
+      transition: transform 0.2s ease;
+
+    }
+
+
+
+    .video-card:hover {
+
+      transform: scale(0.98);
+
+    }
+
+
+
+    .video-card img {
+
+      width: 100%;
+
+      height: 220px;
+
+      object-fit: cover;
+
+      display: block;
+
+    }
+
+
+
+    .video-title {
+
+      position: absolute;
+
+      bottom: 0;
+
+      width: 100%;
+
+      padding: 15px;
+
+      text-align: center;
+
+      font-size: 26px;
+
+      font-weight: bold;
+
+      color: white;
+
+      background: linear-gradient(
+
+        to top,
+
+        rgba(0,0,0,0.9),
+
+        rgba(0,0,0,0)
+
+      );
+
+    }
+
+
+
+    @media (max-width: 600px) {
+
+      .video-card img {
+
+        height: 190px;
+
+      }
+
+
+
+      .video-title {
+
+        font-size: 22px;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- PROFILE -->
+
+  <div class="profile">
+
+
+
+    <!-- GANTI FOTO PROFIL -->
+
+    <img src="https://i.imgur.com/yourphoto.jpg" alt="Profile">
+
+
+
+    <!-- GANTI NAMA -->
+
+    <h1>Citra Amelia</h1>
+
+
+
+  </div>
+
+
+
+  <!-- VIDEO LIST -->
+
+  <div class="video-list">
+
+
+
+    <!-- VIDEO 1 -->
+
+    <a href="https://linktujuan1.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb1.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 1</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 2 -->
+
+    <a href="https://linktujuan2.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb2.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 2</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 3 -->
+
+    <a href="https://linktujuan3.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb3.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 3</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 4 -->
+
+    <a href="https://linktujuan4.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb4.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 4</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 5 -->
+
+    <a href="https://linktujuan5.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb5.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 5</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 6 -->
+
+    <a href="https://linktujuan6.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb6.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 6</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 7 -->
+
+    <a href="https://linktujuan7.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb7.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 7</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 8 -->
+
+    <a href="https://linktujuan8.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb8.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 8</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 9 -->
+
+    <a href="https://linktujuan9.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb9.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 9</div>
+
+    </a>
+
+
+
+    <!-- VIDEO 10 -->
+
+    <a href="https://linktujuan10.com" class="video-card">
+
+      <img src="https://i.imgur.com/thumb10.jpg" alt="Thumbnail">
+
+      <div class="video-title">Judul Video 10</div>
+
+    </a>
+
+
+
+  </div>
+
+
+
+</body>
+
+  </html>
